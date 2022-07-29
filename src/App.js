@@ -10,8 +10,8 @@ function App() {
      <h1 className="main_title">DAVINCI</h1>
      <NavBar />
      <Routes>
-      <Route path="/Register" component={Register} />
-      <Route path="/Login" component={Login} />
+      <Route path="/Register" element={<Register/>} />
+      <Route path="/Login" element={<Login/>} />
      </Routes>
     </div>
   );
