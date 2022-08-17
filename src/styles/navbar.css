@@ -1,6 +1,9 @@
 .nav_parent {
+    width: 100%;
+    border: 1px solid red;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
   }
   .nav_links {
     font-size: 1.2rem;
@@ -10,5 +13,5 @@
     border: 1px solid #28a4a4;
     border-radius: 5px;
     text-decoration: none;
-    width: 100px;
+    width: 80%;
   }
