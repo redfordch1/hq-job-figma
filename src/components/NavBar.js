@@ -8,7 +8,7 @@ function NavBar() {
         <Link className="nav_links" to="/Register">
           Create Account
         </Link>
-        <Link className="nav_links" to="/Login">
+        <Link className="nav_links_1" to="/Login">
           Sign In
         </Link>
       </div>

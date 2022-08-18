@@ -7,7 +7,7 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-     <h1 className="main_title">DAVINCI</h1>
+     <img src="davincilogo.png" alt="Davinci Logo" />
      <NavBar />
      <Routes>
       <Route path="/Register" element={<Register/>} />

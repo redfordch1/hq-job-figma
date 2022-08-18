@@ -1,17 +1,38 @@
 .nav_parent {
     width: 100%;
-    border: 1px solid red;
     display: flex;
+    justify-content: flex-end;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    
   }
   .nav_links {
-    font-size: 1.2rem;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    margin: 5px;
     padding: 5px;
-    color: #28a4a4;
-    border: 1px solid #28a4a4;
-    border-radius: 5px;
+    color: white;
+    background-color: rgb(197, 52, 52);
+    border-radius: 10px;
     text-decoration: none;
-    width: 80%;
+    width: 85%;
+    height: 40px;
+    margin-top: 50%;
+  }
+
+  .nav_links_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    margin: 5px;
+    padding: 5px;
+    color: rgb(197, 52, 52);
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 85%;
+    height: 40px;
   }
